@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div>
+    <main>
       <h1>Quote generator</h1>
       <section>
         <button onClick={newQuote}>Click me</button>
@@ -35,7 +35,7 @@ function App() {
           <i>-&gt;{quote?.author}</i>
         </h3>
       </section>
-    </div>
+    </main>
   );
 
   // return (
